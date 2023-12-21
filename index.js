@@ -22,9 +22,11 @@ const data = {
     }
   }
 
-  app.get("*",(req,res)=>{
+app.get("*",(req,res)=>{
+    res.contentType = "application/javascript"
     res.json(data)
-  })
+})
+
 
 app.listen(process.env.PORT|5000,()=>{
     console.log(`server on ${process.env.PORT | 5000}`);
