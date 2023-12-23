@@ -19,7 +19,7 @@ const data = {
       "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
       "@app/root-config": "https://cdn.jsdelivr.net/gh/sjsl08/MF-Parent@gh-pages/app-root-config.js",
       "@app/react": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-react@gh-pages/app-react.js",
-      "@app/angular": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-angular@gh-pages/main.js"
+      "angular": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-angular@gh-pages/main.js"
     }
   }
 
