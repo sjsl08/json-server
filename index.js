@@ -20,7 +20,6 @@ const data = {
       "@app/root-config": "https://cdn.jsdelivr.net/gh/sjsl08/MF-Parent@gh-pages/app-root-config.js",
       "@app/react": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-react@gh-pages/app-react.js",
       "@app/angular": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-angular@gh-pages/main.js"
-
     }
   }
 
