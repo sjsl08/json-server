@@ -18,15 +18,14 @@ const data = {
       "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js",
       "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
       "@app/root-config": "https://cdn.jsdelivr.net/gh/sjsl08/MF-Parent@gh-pages/app-root-config.js",
-      "@app/react": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-react@gh-pages/app-react.js"
+      "@app/react": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-react@gh-pages/app-react.js",
+      "@app/angular": "https://cdn.jsdelivr.net/gh/sjsl08/Microfrontend-angular@gh-pages/main.js"
     }
   }
 
-app.get("*",(req,res)=>{
-    res.contentType = "application/javascript"
+  app.get("*",(req,res)=>{
     res.json(data)
-})
-
+  })
 
 app.listen(process.env.PORT|5000,()=>{
     console.log(`server on ${process.env.PORT | 5000}`);
